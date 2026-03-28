@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "your-project-name", // 替换为你的项目名称
+  "compatibility_date": "2026-03-28", // 替换为当前日期
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "dist" // 替换为你的项目实际构建输出目录
+  },
+  "observability": {
+    "enabled": true
+  }
+}
